@@ -1,0 +1,2 @@
+h = {}
+grades = hash.new
