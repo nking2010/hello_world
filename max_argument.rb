@@ -1,7 +1,7 @@
-# number = [10, 20]
+names= ['romeo', 'oedipus', 'hansel', 'gretel']
 
-def max(value)
-  puts (value).max
+def capitalize_each(names)
+names.map! {|name| name.capitalize}
 end
 
-max(2, 3)
+p capitalize_each(names)
