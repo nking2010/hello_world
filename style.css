@@ -1,0 +1,16 @@
+p {
+  padding-left: 5em;
+  border: 1px solid gray;
+}
+
+#bigfontindent  {
+  font-size: 2em;
+}
+
+#normalfontindent {
+  font-size: 2em;
+}
+
+#smallfontindent  {
+  font-size: .5em;
+}

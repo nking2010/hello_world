@@ -1,0 +1,64 @@
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #572C73;
+  margin-right: 0;
+  position: relative;
+}
+.hope{
+  background-image: url(http://cdn.collider.com/wp-content/uploads/now-you-see-me-jesse-eisenberg-image.jpg);
+  background-size: cover;
+}
+nav{
+  background: #572C73;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+nav a{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+nav a:hover{
+  background-color: #555;
+}
+
+@media screen and (min-width: 768px){
+  nav ul{
+    display: flex;
+  }
+}
+.search {
+  width: 100%;
+  height: 20px;
+}
+.yahoo-image {
+  width: 2.5em;
+  height: 1.25em;
+}
+.jessie{
+  margin-left: 100px;
+  }
+.profile{
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: -8em;
+    padding-right: 4%;
+}
+.flex-container{
+  padding-left: 25%;
+  width: 5%;
+}
+.bottom-half{
+  clear: both;
+}
+.list{
+  position: relative;
+  left: 30em;
+}
